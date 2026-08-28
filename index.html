@@ -1,151 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>CV</title>
-  </head>
-
-  <body>
-    
-    <div class="container">
-      <header class="left-side">
-        <div class="profile-text">
-          <div class="img-container">
-            <img src="./img/avatar.jpg" alt="avatar" />
-          </div>
-          <h2>Shpyrkovich Dima<br /><span>front-end developer</span></h2>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Фронтенд-разработчик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <!-- ШАПКА -->
+    <header class="header">
+      <div class="header-left">
+        <img src="/img/avatar.jpg" alt="Фото" class="avatar">
+        <div class="name-title">
+          <h1>Dima Shpyrkovich</h1>
+          <h2>Frontend-разработчик</h2>
         </div>
-     
-        <section class="contacts">
-          <h3 class="title">Contact Info</h3>
-          <ul>
-            <li class="contacts-list">
-              <span class="icon"
-                ><i class="fa fa-phone" aria-hidden="true"></i
-              ></span>
-              <span class="text"><a href="#">+375 33 382 69 13</a></span>
-            </li>
-            <li class="contacts-list">
-              <span class="icon"
-                ><i class="fa fa-envelope-o" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="mailto:spyrkovich.dima@gmail.com">Gmail</a></span
-              >
-            </li>
-            <li class="contacts-list">
-              <span class="icon"
-                ><i class="fa fa-github" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a href="https://github.com/shpachela">GitHub</a></span
-              >
-            </li>
-            <li class="contacts-list">
-              <span class="icon"
-                ><i class="fa fa-linkedin" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a
-                  href="https://www.linkedin.com/in/%D0%B4%D0%B8%D0%BC%D0%B0-%D1%88%D0%BF%D1%8B%D1%80%D0%BA%D0%BE%D0%B2%D0%B8%D1%87-54632923a/"
-                  >Linkedin</a
-                ></span
-              >
-            </li>
-            <li class="contacts-list">
-              <span class="icon"
-                ><i class="fa fa-map-marker" aria-hidden="true"></i
-              ></span>
-              <span class="text"
-                ><a
-                  href="https://www.google.com/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.8847208,27.5233292,12z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972?hl=ru"
-                  >Belarus , Minsk</a
-                ></span
-              >
-            </li>
-          </ul>
-        </section>
-
-        <section class="contacts education">
-          <h3 class="title">Education</h3>
-          <ul>
-            <li>
-              <h5 class="period">2014 - 2018</h5>
-              <span class="text"
-                >Belarusian College of Railway Transport locomotive and electric
-                locomotive driver assistant</span
-              >
-            </li>
-          </ul>
-        </section>
-        
+      </div>
+      <div class="header-right">
+        <div class="contact-item">
+          <span class="emoji">📧</span>
+          <a href="mailto:spyrkovich.dima@gmail.com">Spyrkovich.dima@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="emoji">📱</span>
+          <a href="#">+375(33)382-69-13</a>
+        </div>
+        <div class="contact-item">
+          <span class="emoji">🌍</span>
+          <span>Minsk, Belarus</span>
+        </div>
+      </div>
     </header>
 
-    <main>
-
-      <div class="right-side">
-        <section class="profile">
-          <h2 class="title2">Profile</h2>
-          <p class="text_prof">
-            I like web development, how it changes the world around us and I
-            want to be useful by realizing big ideas.
-          </p>
-          <p class="text_prof">
-            I feel comfortable when I feel peace, friendliness, warmth and
-            hospitality. I want to work in an environment where the exchange of
-            creative ideas, supportive discussions and shared decision-making
-            are paramount.
-          </p>
-          <p>
-            I am used to acting independently and without interference, although
-            I like to work in a team, to be creative in solving problems. I
-            prefer constructive, intelligent discussions with colleagues.
-          </p>
-        </section>
-
-        <section class="skils">
-          <h2 class="title2">Skils</h2>
-          <ul class="skil-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
-            <li>Figma</li>
-            <li>Visual Studio Code</li>
-            <li>JavaScript</li>
-            <li>English: B2 Pre Intermediate</li>
-          </ul>
-        </section>
-
-        <section class="expierence">
-          <h2 class="title2">Work expierence</h2>
-          <ul class="skil-list">
-            <li>HTML academy course</li>
-            <li>HTML basics</li>
-            <li>CSS basics</li>
-            <li>JavaScript basics</li>
-            <li>Rolling Scopes School</li>
-          </ul>
-        </section>
-
-        <section class="interests">
-          <h2 class="title2">About interests</h2>
-          <ul class="skil-list">
-            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
-            <li><i class="fa fa-suitcase" aria-hidden="true"></i>Travel</li>
-            <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
-            <li><i class="fa fa-bicycle" aria-hidden="true"></i>Ride a bike</li>
-          </ul>
-        </section>
+    <!-- О СЕБЕ -->
+    <section class="section about">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>About me</h3>
       </div>
-      </main>
-    </div>
-    
-  </body>
+      <p>
+        Frontend Developer with 3+ years of experience building and maintaining web applications with React, TypeScript and Next.js.
+        I have a strong passion for creating visually appealing and user-friendly interfaces, and I am always eager to learn new technologies and techniques to improve my skills.
+      </p>
+      <div class="tag-list">
+        <span class="tag">#React</span>
+        <span class="tag">#TypeScript</span>
+        <span class="tag">#Next.js</span>
+        <span class="tag">#JavaScript</span>
+        <span class="tag">#Redux Toolkit</span>
+        <span class="tag">#React Hook Form</span>
+        <span class="tag">#React Query</span>
+        <span class="tag">#React Router</span>
+        <span class="tag">#REST API</span>
+        <span class="tag">#GIT</span>
+        <span class="tag">#HTML & CSS</span>
+        <span class="tag">#Tailwind CSS</span>
+        <span class="tag">#Docker</span>
+        <span class="tag">#CI/CD</span>
+        <span class="tag">#Figma</span>
+      </div>
+    </section>
+
+    <!-- ОПЫТ РАБОТЫ -->
+    <section class="section">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>Опыт работы</h3>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-left">
+            <span class="exp-company">Stageon</span>
+            <span class="exp-role">Frontend Developer</span>
+          </div>
+          <span class="exp-date">february 2026 – august 2026</span>
+        </div>
+        <ul class="exp-list">
+          <p>Developed and maintained a web application for discovering and exploring events using Next.js and TypeScript.</p>
+          <li>Developed reusable UI components and implemented business logic based on Figma designs.</li>
+          <li>Built event-related features including event listings, filtering, calendars and organizer pages.</li>
+          <li>Integrated REST APIs and implemented client-side data management and asynchronous data fetching.</li>
+          <li>Worked with Next.js routing and URL parameters to implement dynamic navigation and filtering.</li>
+          <li>Built responsive and pixel-perfect interfaces using Tailwind CSS and modern frontend practices.</li>
+          <li>Used Git and Docker in the development workflow and collaborated with designers and developers to deliver frontend features.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-left">
+            <span class="exp-company">InvuTraid</span>
+            <span class="exp-role">Frontend Developer</span>
+          </div>
+          <span class="exp-date">january 2024 – january 2026</span>
+        </div>
+        <ul class="exp-list">
+          <p>Developed and maintained a production web application using React and TypeScript for discovering and exploring places.</p>
+          <li>Developed reusable React components and implemented business logic based on Figma designs.</li>
+          <li>Built user-facing features such as place listings, search, filtering and interactive content.</li>
+          <li>Integrated REST APIs and managed application state and server-side data.</li>
+          <li>Created responsive and pixel-perfect interfaces using modern frontend practices.</li>
+          <li>Worked with React Router for client-side navigation and implemented form handling with React Hook Form.</li>
+          <li>Collaborated with designers and developers using Git-based workflows to deliver and maintain frontend features.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-header">
+          <div class="exp-left">
+            <span class="exp-company">The Rolling Scopes School </span>
+            <span class="exp-role">Course participant</span>
+          </div>
+          <span class="exp-date">february 2024 – december 2026</span>
+        </div>
+        <ul class="exp-list">
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>Next.js</li>
+          <li>JavaScript</li>
+          <li>Redux Toolkit</li>
+          <li>React Hook Form</li>
+          <li>React Query</li>
+          <li>React Router</li>
+          <li>REST API</li>
+          <li>GIT</li>
+          <li>HTML &amp; CSS</li>
+          <li>Tailwind CSS</li>
+          <li>Docker</li>
+          <li>CI/CD</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- КЛЮЧЕВЫЕ НАВЫКИ -->
+    <section class="section">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>Key skills</h3>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <span class="skill-title">Programming languages / technologies</span>
+          <div class="skill-tags">
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3 / SCSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <span class="skill-title">Frameworks, Major Libraries and Platforms</span>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Redux Toolkit</span>
+            <span class="skill-tag">React Query</span>
+            <span class="skill-tag">React Hook Form</span>
+            <span class="skill-tag">CSS Modules</span>
+            <span class="skill-tag">Material-UI</span>
+            <span class="skill-tag">Ant Design</span>
+            <span class="skill-tag">React Router</span>
+            <span class="skill-tag">Tailwind CSS</span>
+            <span class="skill-tag">Styled Components</span>
+            <span class="skill-tag">Framer Motion</span>
+            
+
+          </div>
+        </div>
+        <div class="skill-category">
+          <span class="skill-title">Tools</span>
+          <div class="skill-tags">
+            <span class="skill-tag">Vite</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">VScode</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Jira</span>
+            <span class="skill-tag">Pixel perfect</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ПРОЕКТЫ -->
+    <section class="section">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>Key Projects</h3>
+      </div>
+      
+      <div class="project-item">
+        <div class="project-header">
+          <span class="project-name">Event Manager</span>
+          <span class="project-stack">React, TypeScript, React Router, Redux Toolkit, React Hook Form, React Query, JSON-Server</span>
+        </div>
+        <p>
+          A single-page application for event management with full CRUD operations, filtering, and a responsive design. 
+          Implemented dynamic routing using React Router. 
+          Global state management is built with <strong>Redux Toolkit</strong>, 
+          while asynchronous data fetching and caching are handled by <strong>React Query</strong>. 
+          Used <strong>React Hook Form</strong> with validation for building complex forms. 
+          JSON-Server was used as a mock backend to simulate API interactions.
+        </p>
+      </div>
+    </section>
+
+    <!-- ОБРАЗОВАНИЕ -->
+    <section class="section">
+      <div class="section-title">
+        <span class="line"></span>
+        <h3>Образование</h3>
+      </div>
+      <div class="edu-item">
+        <span class="edu-place">MGPTK Railway Transport</span>
+        <span class="edu-special">Assistant Driver</span>
+        <span class="edu-date">2016 – 2021</span>
+      </div>
+    </section>
+  </div>
+</body>
 </html>
